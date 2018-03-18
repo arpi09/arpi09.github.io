@@ -505,7 +505,7 @@ h5 {
     display: none;
     padding: 50px;
     text-align: center;
-    height: 1000px;
+    height: 100%;
     width: 100%;
     border-top: 2px solid black;
     text-align: left;
