@@ -126,7 +126,12 @@ hr.hrref {
 }
 
 
-h {
+h.mainhome {
+    font-size: 50px;
+    color: white;
+}
+
+h.main {
     font-size: 50px;
     color: black;
 }
