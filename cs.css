@@ -70,7 +70,7 @@ hr.hrref {
     background-image: url("img/hem2.jpg");
     box-shadow: inset 0 0 0 1000px rgba(0,0,0,0.3);
   background-position: center center;
-    height: 800px;
+    min-height: 100vh;
     background-attachment: fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -304,6 +304,7 @@ h5 {
 
 .tjanstermain {
     background-color: white;
+    padding-top: 120px;
 }
 
 .bulletp {
@@ -514,7 +515,7 @@ h5 {
 }
 
 .tjanstercont {
-    padding-top: 50px;
+    padding-top: 10px;
 }
 
 /* Set default styles for tab content */
@@ -522,7 +523,6 @@ h5 {
     color: black;
     display: none;
     padding: 50px;
-    text-align: center;
     height: 100%;
     width: 100%;
     border-top: 2px solid black;
@@ -658,20 +658,81 @@ p, h1 {
 .shadow-1 {
   box-shadow: 0 5px 10px 0 rgba(0,0,0,0.15);
 }
-.blue-hover {
+
+@media (min-width:900px) {
+.blue-hover-right {
   transition: all 0.25s ease-in;
   border-bottom: 5px solid transparent;
     background-color: #f7faff;
+    width: 360px;
+    align-content: left;
+    margin-left: 10px;
+    margin-right: 90px;
+    margin-bottom: 20px;
+}
+}
+    
+@media (max-width:900px) {
+.blue-hover-right {
+  transition: all 0.25s ease-in;
+  border-bottom: 5px solid transparent;
+    background-color: #f7faff;
+    width: 360px;
+    align-content: left;
+    margin-bottom: 20px;
+}
+}
+
+.blue-hover-right:hover {
+  transform: translateY(-5px);
+  border: none;
+  border-bottom: 5px solid #cee0ff;
+    width: 360px;
+}
+
+.blue-hover {
+    width: 360px;
+  transition: all 0.25s ease-in;
+  border-bottom: 5px solid transparent;
+    background-color: #f7faff;
+    margin-left: 20px;
 }
 .blue-hover:hover {
   transform: translateY(-5px);
-
+width: 360px;
   border: none;
   border-bottom: 5px solid #cee0ff;
 }
 
+@media (min-width:900px) {
+.blue-hover-left {
+    width: 360px;
+  transition: all 0.25s ease-in;
+  border-bottom: 5px solid transparent;
+    background-color: #f7faff;
+    align-content: right;
+    margin-left: 170px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+}
 
-
+@media (max-width:900px) {
+.blue-hover-left {
+    width: 360px;
+  transition: all 0.25s ease-in;
+  border-bottom: 5px solid transparent;
+    background-color: #f7faff;
+    align-content: right;
+    margin-bottom: 20px;
+}
+}
+.blue-hover-left:hover {
+  transform: translateY(-5px);
+width: 360px;
+  border: none;
+  border-bottom: 5px solid #cee0ff;
+}
 
 .clearfix::before,
 .clearfix::after {
