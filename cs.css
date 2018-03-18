@@ -4,13 +4,15 @@ hr {
     border-color: white;
 }
 
+@media (min-width:700px) {
 .navImg {
     height: 90px;
+}
 }
 
 @media (max-width:700px) {
     .navImg {
-        height: 70px;
+        height: 50px;
     }
 }
 
