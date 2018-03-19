@@ -28,6 +28,24 @@ hr.hrref {
 @media (max-width:700px){
 hr.hrref {
     color: black;
+    max-width: 100px;
+  border-width: 2px;
+    background-color: black;
+}
+}
+
+@media (min-width:700px){
+hr.hrned {
+    color: black;
+    max-width: 400px;
+  border-width: 2px;
+    background-color: black;
+}
+}
+
+@media (max-width:700px){
+hr.hrned {
+    color: black;
     max-width: 200px;
   border-width: 2px;
     background-color: black;
@@ -274,6 +292,10 @@ h5 {
     
 }
 
+.refinfo {
+    color: black;
+}
+
 @media (min-width:992px){
 .dorinel {
     padding-top: 80px;
@@ -310,8 +332,17 @@ h5 {
 .bulletp {
     color: black;
 }
-
  
+.nedpics {
+    padding-bottom: 50px;
+}
+
+.nedpictures {
+    padding-top: 0px;
+    padding-bottom: 80px;
+    background-color: white;
+}
+
 @media (min-width:700px) {
 .refdiv {
     padding-top: 20px;
@@ -659,12 +690,12 @@ p, h1 {
   box-shadow: 0 5px 10px 0 rgba(0,0,0,0.15);
 }
 
-@media (min-width:900px) {
+@media (min-width:992px) {
 .blue-hover-right {
   transition: all 0.25s ease-in;
   border-bottom: 5px solid transparent;
     background-color: #f7faff;
-    width: 360px;
+    width: 350px;
     align-content: left;
     margin-left: 10px;
     margin-right: 90px;
@@ -672,12 +703,12 @@ p, h1 {
 }
 }
     
-@media (max-width:900px) {
+@media (max-width:992px) {
 .blue-hover-right {
   transition: all 0.25s ease-in;
   border-bottom: 5px solid transparent;
     background-color: #f7faff;
-    width: 360px;
+    width: 100vh;
     align-content: left;
     margin-bottom: 20px;
 }
@@ -687,26 +718,28 @@ p, h1 {
   transform: translateY(-5px);
   border: none;
   border-bottom: 5px solid #cee0ff;
-    width: 360px;
+    width: 350px;
 }
 
 .blue-hover {
-    width: 360px;
+    width: 350px;
   transition: all 0.25s ease-in;
   border-bottom: 5px solid transparent;
     background-color: #f7faff;
-    margin-left: 20px;
+    margin-bottom: 20px;
+
 }
 .blue-hover:hover {
   transform: translateY(-5px);
-width: 360px;
+width: 350px;
   border: none;
   border-bottom: 5px solid #cee0ff;
+    margin-bottom: 20px;
 }
 
-@media (min-width:900px) {
+@media (min-width:992px) {
 .blue-hover-left {
-    width: 360px;
+    width: 350px;
   transition: all 0.25s ease-in;
   border-bottom: 5px solid transparent;
     background-color: #f7faff;
@@ -717,19 +750,19 @@ width: 360px;
 }
 }
 
-@media (max-width:900px) {
+@media (max-width:992px) {
 .blue-hover-left {
-    width: 360px;
+    width: 350px;
   transition: all 0.25s ease-in;
   border-bottom: 5px solid transparent;
     background-color: #f7faff;
-    align-content: right;
+
     margin-bottom: 20px;
 }
 }
 .blue-hover-left:hover {
   transform: translateY(-5px);
-width: 360px;
+width: 350px;
   border: none;
   border-bottom: 5px solid #cee0ff;
 }
