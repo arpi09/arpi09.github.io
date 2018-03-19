@@ -107,35 +107,35 @@ hr.hrned {
    padding-top: 150px;
     padding-bottom: 100px;
     height: 100px;
-    background-color: white;
+    background-color: #f4f8ff;
 }
 
 .mainSectionref {
     padding-top: 150px;
     padding-bottom: 100px;
     height: 80px; 
-    background-color: white;
+    background-color: #f4f8ff;
 }
 
 .mainSectioncontact {
     padding-top: 150px;
     padding-bottom: 0px;
     height: 80px;
-    background-color: white;
+    background-color: #f4f8ff;
 }
 
 .finishedjobs {
     padding-top: 0px;
     padding-bottom: 0px;
     height: 40px;
-    background-color: white;
+    background-color: #f4f8ff;
 }
 
 .undergoingjobs {
     padding-top: 150px;
     padding-bottom: 40px;
     height: 80px;
-    background-color: white;
+    background-color: #f4f8ff;
 }
 
 .img {
@@ -207,7 +207,7 @@ h8 {
 }
 
 .rowtop {
-    background-color: white;
+    background-color: #f4f8ff;
 }
 
 .mainfooter {
@@ -248,31 +248,31 @@ h5 {
 .about {
     padding-top: 150px;
     padding-bottom: 80px;
-    background-color: white;
+    background-color: #f4f8ff;
 }
 
 .reftop {
     padding-top: 0px;
     padding-bottom: 50px;
-    background-color: white;
+    background-color: #f4f8ff;
 }
 
 .refbot {
     padding-top: 0px;
     padding-bottom: 20px;
-    background-color: white;
+    background-color: #f4f8ff;
 }
 
 .ref {
     padding-top: 100px;
     padding-bottom: 80px;
-    background-color: white;
+    background-color: #f4f8ff;
 }
 
 .refcolor {
     padding-top: 100px;
     padding-bottom: 80px;
-    background-color: white;
+    background-color: #f4f8ff;
 }
 
 .textabout {
@@ -324,7 +324,7 @@ h5 {
 }
 
 .tjanstermain {
-    background-color: white;
+    background-color: #f4f8ff;
     padding-top: 120px;
 }
 
@@ -339,7 +339,7 @@ h5 {
 .nedpictures {
     padding-top: 0px;
     padding-bottom: 80px;
-    background-color: white;
+    background-color: #f4f8ff;
 }
 
 @media (min-width:700px) {
@@ -478,7 +478,7 @@ h5 {
 /* Style the tab buttons */
 .tablinkone {
     background-color: rgba(110, 125, 145, 0);
-    color: white;
+    color: #f4f8ff;
     float: left;
     border: none;
     outline: none;
@@ -497,7 +497,7 @@ h5 {
 
 .tablinktwo {
     background-color: rgba(110, 125, 145, 0);
-    color: white;
+    color: #f4f8ff;
     float: left;
     border: none;
     outline: none;
@@ -579,7 +579,7 @@ h5 {
    font-variant-ligatures: none;
    box-sizing: border-box;
    font-family: 'Roboto', sans-serif;
-   background-color: white;
+   background-color: #f4f8ff;
 }
 body::before,
 body::after {
