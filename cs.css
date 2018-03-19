@@ -580,6 +580,7 @@ h5 {
    box-sizing: border-box;
    font-family: 'Roboto', sans-serif;
    background-color: #f4f8ff;
+     height: 100%;
 }
 body::before,
 body::after {
