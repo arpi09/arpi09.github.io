@@ -1,0 +1,353 @@
+/*!
+ * Start Bootstrap - Creative v4.0.0-beta.2 (https://startbootstrap.com/template-overviews/creative)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-creative/blob/master/LICENSE)
+ */
+body,
+html {
+  width: 100%;
+  height: 100%; }
+
+body {
+  font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif; }
+
+hr {
+  max-width: 50px;
+  border-width: 3px;
+  border-color: #101112; }                                  /*Changes color of small lines*/
+
+hr.red {
+  border-color: red; }  
+
+hr.white {
+  border-color: white; }  
+
+/*Changes color of small lines*/
+
+li {
+    color: white;
+}
+
+a {
+  color: #000000;                                           /*Changes color of mail address*/
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  transition: all 0.2s; }
+  a:hover {
+    color: #CCCCCC; }                                      /*Changes color of mail address when hover*/
+
+h2.red {
+    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+    color: red;
+}
+
+h2.white {
+    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+    color: white;
+}
+
+p.red {
+    color: red;
+}
+
+p.white {
+    color: white;
+}
+
+h1,
+
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif; }
+
+.bg-primary {
+  background-color: #262A2B !important; }
+
+.bg-dark {
+  background-color: #101112 !important; }
+
+.text-faded {
+  color: rgba(204, 204, 204, 0.7); }/*Changes color of top hover-picture text and some text in header*/
+
+section {
+  padding: 8rem 0; }
+
+.section-heading {
+  margin-top: 0; }
+
+::-moz-selection {
+  color: #fff;
+  background: #212529;
+  text-shadow: none; }
+
+::selection {
+  color: #fff;
+  background: #212529;
+  text-shadow: none; }
+
+img::selection {
+  color: #fff;
+  background: transparent; }
+
+img::-moz-selection {
+  color: #fff;
+  background: transparent; }
+
+body {
+  -webkit-tap-highlight-color: #212529; }
+
+#mainNav {
+  border-bottom: 2px solid rgba(33, 37, 41, 0);
+  background-color: #fff;                                   /*Changes color of menubar*/
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  transition: all 0.2s; }
+    .navbar-toggler {
+    border-color: white;
+    background-color: red;}
+  #mainNav .navbar-brand {
+    font-weight: 700;
+    color: red;                                         /*Changes color of Menu main-text*/
+    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif; }
+    #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
+      color: #ff9393; }                                     /*Changes color of Menu main-text hover*/
+  #mainNav .navbar-nav > li.nav-item > a.nav-link,
+  #mainNav .navbar-nav > li.nav-item > a.nav-link:focus {
+    font-size: .9rem;
+    font-weight: 700;
+    color: #ff9393; }                                   /*Changes color of Menu item-text when at top*/
+    #mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
+    #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
+      color: #7c4c4c; }                                     /*Changes color of Menu items-text hover*/
+    #mainNav .navbar-nav > li.nav-item > a.nav-link.active,
+    #mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active {
+      color: #ff9393!important;                /*Changes color of Menu items-text when on that place*/
+      background-color: transparent; }
+      #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover,
+      #mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active:hover {
+        background-color: transparent; }
+  @media (min-width: 992px) {
+       #mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
+    #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
+      color: #fff; }
+       #mainNav .navbar-nav > li.nav-item > a.nav-link,
+  #mainNav .navbar-nav > li.nav-item > a.nav-link:focus {
+    font-size: .9rem;
+    font-weight: 700;
+    color: #fff; } 
+    #mainNav {
+      border-color: transparent;
+      background-color: transparent; }
+      #mainNav .navbar-brand {
+        color: white; }
+        #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
+          color: #fff; }
+      #mainNav .navbar-nav > li.nav-item > a.nav-link {
+        padding: 0.5rem 1rem; }
+      #mainNav .navbar-nav > li.nav-item > a.nav-link,
+      #mainNav .navbar-nav > li.nav-item > a.nav-link:focus {
+        color: white; }
+        #mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
+        #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
+          color: #fff; }
+      #mainNav.navbar-shrink {
+        border-bottom: transparent;
+          background-color: #fff;}               /*Changes menubar color when big and scrolled down*/
+        #mainNav.navbar-shrink .navbar-brand {
+          color: red; }
+          #mainNav.navbar-shrink .navbar-brand:focus, #mainNav.navbar-shrink .navbar-brand:hover {
+            color: #ff9393; }
+        #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link,
+        #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus {
+          color: red; }
+          #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:hover,
+          #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus:hover {
+            color: #ff9393; } }
+
+header.masthead {
+  padding-top: 10rem;
+  padding-bottom: calc(10rem - 56px);
+  background-image: url("img/Trinken_main.jpg");
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; 
+}
+
+@media (max-width: 992px) { 
+    header.masthead {
+        background-image: url("img/Trinken_main_small.jpg");
+        height: 50vh;
+    }
+}
+
+header .text-uppercase{
+    color: #101112;                                       /*Changes color of header text*/
+}
+header .text-faded{
+    color: #101112 !important;
+    font-weight: 700 !important;
+}
+  header.masthead hr {
+    margin-top: 30px;
+    margin-bottom: 30px; }
+  header.masthead h1 {
+    font-size: 2rem; }
+  header.masthead p {
+    font-weight: 300; }
+  @media (min-width: 768px) {
+    header.masthead p {
+      font-size: 1.15rem; } }
+  @media (min-width: 992px) {
+    header.masthead {
+      height: 100vh;
+      min-height: 650px;
+      padding-top: 0;
+      padding-bottom: 0; }
+      header.masthead h1 {
+        font-size: 3rem; } }
+  @media (min-width: 1200px) {
+    header.masthead h1 {
+      font-size: 4rem; } }
+
+.service-box {
+  max-width: 400px; }
+
+.portfolio-box {
+  position: relative;
+  display: block;
+  max-width: 650px;
+  margin: 0 auto; }
+  .portfolio-box .portfolio-box-caption {
+    position: absolute;
+    bottom: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    opacity: 0;
+    color: #fff;                            /*Changes color of text on hover over pictures*/
+    background: rgba(0, 0, 0, 0.5);     /*Changes color of hover pictures*/
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    transition: all 0.2s; }
+    .portfolio-box .portfolio-box-caption .portfolio-box-caption-content {
+      position: absolute;
+      top: 50%;
+      width: 100%;
+      transform: translateY(-50%);
+      text-align: center; }
+      .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category,
+      .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
+        padding: 0 15px;
+        font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif; }
+      .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
+        font-size: 14px;
+        font-weight: 600;
+        text-transform: uppercase; }
+      .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
+        font-size: 18px; }
+  .portfolio-box:hover .portfolio-box-caption {
+    opacity: 1; }
+  .portfolio-box:focus {
+    outline: none; }
+  @media (min-width: 768px) {
+    .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
+      font-size: 16px; }
+    .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
+      font-size: 22px; } }
+
+.text-primary {
+  color: #D5AA4A !important; }
+
+.testsectionone{
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,0.2);
+    height: 700px;
+    background-position: center center;
+    background-image: url("../img/Background_farhult.jpg");
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
+}
+.testsectiontwo{
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,0.3);
+    height: 700px;
+    background-position: center center;
+    background-image: url("../img/pi3.png");
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+  
+}
+
+#services{
+    background-color: #101112;
+    height: cover; 
+}
+
+.maintextdoc{
+    color: rgba(150, 150, 150, 1);
+}
+
+.textdoc{
+    color: rgba(245, 245, 245, 1);
+}
+
+.docheading{
+    color: #fff;
+}
+.btn {
+  font-weight: 700;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 300px;
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif; }
+
+.btn-xl {
+  padding: 1rem 2rem; }
+
+.btn-primary {
+  background-color: #262A2B;                                 /*Changes color of find out more button*/
+  border-color: #262A2B; }
+  .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+    color: #fff;                              /*Changes color of find out more button-text when hover*/
+    background-color: #7c7c7c !important; }        /*Changes color of find out more button when hover*/
+  .btn-primary:active, .btn-primary:focus {
+    box-shadow: 0 0 0 0.2rem rgba(200, 200, 200, 0.5) !important; }
+
+square {
+    background-color: red;
+    height: 70vh;
+}
+
+@media (min-width:992px) {
+.square {
+    background-color: red;
+    box-shadow: 10px 20px 8px 0px rgba(0,0,0,0.4);
+    margin-right: 100px;
+    }
+}
+
+@media (min-width:992px) {
+.profile {
+    height: 60vh;
+    margin-top: 10vh;
+    }
+}
+
+.service {
+    background-color: red;
+}
+
+.shadowcolright {
+    box-shadow: 10px 10px 20px 10px rgba(0,0,0,0.4);
+    margin-top: 50px;
+}
