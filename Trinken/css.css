@@ -182,7 +182,13 @@ body {
             color: #ff9393; } }
 
 
-
+@media(max-width:992px){
+.mainimg {
+    margin-top: 100px;
+    height: 350px;
+    width: 100%;
+}
+    }
 
 @media(min-width:992px){
 .mainimg {
