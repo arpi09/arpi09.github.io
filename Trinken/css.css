@@ -197,7 +197,7 @@ header.masthead {
     header.masthead {
         padding-top: 10rem;
   padding-bottom: calc(10rem - 56px);
-        background-image: url("img/Trinken_main_small.jpg");
+        background-image: url("img/trinken_mini.jpg");
         height: 50vh;
         background-position: center center;
   background-attachment: fixed;
