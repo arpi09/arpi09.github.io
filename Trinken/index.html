@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<!--·····················-->
+<!--·······Made by·······-->
+<!--····Arvid Pilhall····-->
+<!--·····················-->
+    
   <head>
 
     <meta charset="utf-8">
@@ -65,7 +70,7 @@
           <div class="col-lg-8 mx-auto text-center">
             <h2 class="section-heading red">View</h2>
             <hr class="red">
-            <p class="red"><br/>Some text that will come later!</p>
+            <p class="red" data-sr="enter left, over 1.5s"><br/>Some text that will come later!</p>
           </div>
         </div>
       </div>
@@ -78,7 +83,7 @@
                <h2 class="section-heading white">Service</h2>
               <hr class="white">
               <br>
-            <p class="white">
+            <p class="white" data-sr="enter left, over 1.5s">
                 Trinken AB is an independent management consultancy offering brand management and corporate development
             </p>
           </div>
@@ -87,16 +92,17 @@
               <div class="col-2">
               </div>
           <div class="col-8 shadowcolright">
-               <h2 class="section-heading white">Services</h2>
+              <br>
+               <h2 class="section-heading red">Services</h2>
               <br>
             <ul class="fa-ul">
-                    <li><i class="fa-li fa fa-angle-right"></i>Corporate communications</li>
+                    <li data-sr="enter right, over 1.5s"><i class="fa-li fa fa-angle-right"></i>Corporate communications</li>
                                 <br>
-                    <li><i class="fa-li fa fa-angle-right"></i>Brand and trademark strategy</li>
+                    <li data-sr="enter right, over 1.5s"><i class="fa-li fa fa-angle-right"></i>Brand and trademark strategy</li>
                                 <br>
-                    <li><i class="fa-li fa fa-angle-right"></i>Positioning, Brand architecture & naming</li>
+                    <li data-sr="enter right, over 1.5s"><i class="fa-li fa fa-angle-right"></i>Positioning, Brand architecture & naming</li>
                                 <br>
-                    <li><i class="fa-li fa fa-angle-right"></i>Design management</li>
+                    <li data-sr="enter right, over 1.5s"><i class="fa-li fa fa-angle-right"></i>Design management</li>
                 </ul>
               <br>
           </div>
@@ -108,10 +114,10 @@
       
       <section class="case" id="case">
       <div class="container">
-          <h2 class="text-center red">Case</h2>
+          <h2 class="text-center red" >Case</h2>
               <hr class="red">
               <br>
-        <div class="row topcase">
+        <div class="row topcase" data-sr="enter left, over 1.5s, move 200px">
           <div class="col mx-auto text-center">
               <img class="sparimg" src="img/swedbank.jpg">
           </div>
@@ -123,7 +129,7 @@
           </div>
             
         </div>
-          <div class="row topcase">
+          <div class="row topcase" data-sr="enter right, over 1.5s, move 200px">
               <div class="col mx-auto text-center">
                 <img class="munkimg" src="img/munk.png">
           </div>
@@ -136,7 +142,7 @@
           </div>
               
         </div>
-          <div class="row botcase">
+          <div class="row botcase" data-sr="enter left, over 1.5s, move 200px">
               <div class="col mx-auto text-center">
                   <img class="kfimg" src="img/kf.png">
           </div>
@@ -165,14 +171,16 @@
         <div class="row iconrow">
           <div class="col-lg text-center mx-auto">
             <i class="fa fa-phone fa-3x mb-3 sr-contact" id="icons"></i>
-            <p class="white">070-53 156 24</p>
+            <p class="white">
+                <a href="tel:070-12 123 12">070-12 123 12</a>
+              </p>
           </div>
                 </div>
             <div class="row iconrow">
           <div class="col-lg text-center mx-auto">
             <i class="fa fa-envelope-o fa-3x mb-3 sr-contact" id="icons"></i>
             <p class="white">
-              <a href="mailto:your-email@your-domain.com">arvid.pilhall@telia.com</a>
+              <a href="mailto:your-email@your-domain.com">mail.mail@domain.com</a>
             </p>
           </div>
         </div>
@@ -207,7 +215,7 @@
 
     <!-- Plugin JavaScript -->
     <script src="jquery-easing/jquery.easing.min.js"></script>
-    <script src="scrollreveal/scrollreveal.min.js"></script>
+    <script src='scrollreveal-2.3.2/dist/scrollReveal.min.js'></script>
     <script src="magnific-popup/jquery.magnific-popup.min.js"></script>
 
     <!-- Custom scripts for this template -->
