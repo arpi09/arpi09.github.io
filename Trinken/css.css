@@ -184,7 +184,7 @@ body {
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 56px);
-  background-image: url("img/Trinken_main.jpg");
+ 
   background-position: center center;
   background-attachment: fixed;
   -webkit-background-size: cover;
@@ -193,20 +193,18 @@ header.masthead {
   background-size: cover; 
 }
 
-@media (max-width: 992px) { 
-    header.masthead {
-        padding-top: 10rem;
-  padding-bottom: calc(10rem - 56px);
-        background-image: url("img/trinken_mini.jpg");
-        height: 50vh;
-        background-position: center center;
-  background-attachment: fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-    }
+@media(max-width:992px){
+.mainimg {
+    height: 250px;
+    width: 100%;
 }
+}
+
+@media(min-width:992px){
+.mainimg {
+    width: 100%;
+}
+    }
 
 header .text-uppercase{
     color: #101112;                                       /*Changes color of header text*/
