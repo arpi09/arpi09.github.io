@@ -9,7 +9,7 @@ html {
   height: 100%; }
 
 body {
-  font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif; }
+  font-family: "Lucida Console", Monaco, monospace; }
 
 hr {
   max-width: 50px;
@@ -44,12 +44,12 @@ a {
 
 
 h2.red {
-    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+    font-family: "Lucida Console", Monaco, monospace;
     color: red;
 }
 
 h2.white {
-    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+    font-family: "Lucida Console", Monaco, monospace;
     color: white;
 }
 
@@ -67,7 +67,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif; }
+  font-family: "Lucida Console", Monaco, monospace; }
 
 .bg-primary {
   background-color: #262A2B !important; }
@@ -105,10 +105,14 @@ img::-moz-selection {
 body {
   -webkit-tap-highlight-color: #212529; }
 
+.menulogo {
+    height: 50px;
+}
+
 #mainNav {
   border-bottom: 2px solid rgba(33, 37, 41, 0);
   background-color: #fff;                                   /*Changes color of menubar*/
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  font-family: "Lucida Console", Monaco, monospace;
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
   transition: all 0.2s; }
@@ -119,7 +123,7 @@ body {
     font-weight: 700;
     color: red; 
       /*Changes color of Menu main-text*/
-    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif; }
+    font-family: "Lucida Console", Monaco, monospace; }
     #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
         color: #ff9393; }                                     /*Changes color of Menu main-text hover*/
   #mainNav .navbar-nav > li.nav-item > a.nav-link,
@@ -191,8 +195,16 @@ header.masthead {
 
 @media (max-width: 992px) { 
     header.masthead {
+        padding-top: 10rem;
+  padding-bottom: calc(10rem - 56px);
         background-image: url("img/Trinken_main_small.jpg");
         height: 50vh;
+        background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
     }
 }
 
@@ -255,7 +267,7 @@ header .text-faded{
       .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category,
       .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
         padding: 0 15px;
-        font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif; }
+        font-family: "Lucida Console", Monaco, monospace; }
       .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
         font-size: 14px;
         font-weight: 600;
@@ -292,12 +304,6 @@ header .text-faded{
 .docheading{
     color: #fff;
 }
-.btn {
-  font-weight: 700;
-  text-transform: uppercase;
-  border: none;
-  border-radius: 300px;
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif; }
 
 .btn-xl {
   padding: 1rem 2rem; }
@@ -459,12 +465,20 @@ header .text-faded{
     }
 
 #map {
+    filter: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="g"><feColorMatrix type="matrix" values="0.3 0.3 0.3 0 0 0.3 0.3 0.3 0 0 0.3 0.3 0.3 0 0 0 0 0 1 0"/></filter></svg>#g');
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);    
+    filter: progid:DXImageTransform.Microsoft.BasicImage(grayScale=1);
    width: 350px;
     height: 350px;
 }
 
 @media(min-width:992px) {
 #map {
+    filter: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="g"><feColorMatrix type="matrix" values="0.3 0.3 0.3 0 0 0.3 0.3 0.3 0 0 0.3 0.3 0.3 0 0 0 0 0 1 0"/></filter></svg>#g');
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(90%);    
+    filter: progid:DXImageTransform.Microsoft.BasicImage(grayScale=1);
    width: 600px;
     height: 450px;
 }
