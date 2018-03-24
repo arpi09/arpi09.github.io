@@ -181,17 +181,7 @@ body {
           #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus:hover {
             color: #ff9393; } }
 
-header.masthead {
-  padding-top: 10rem;
-  padding-bottom: calc(10rem - 56px);
- 
-  background-position: center center;
-  background-attachment: fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover; 
-}
+
 
 @media(max-width:992px){
 .mainimg {
