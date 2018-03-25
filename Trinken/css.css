@@ -195,7 +195,7 @@ body {
 }
     }
 
-
+@media(min-width:400px){
 header.masthead {
     box-shadow: inset 0 0 0 1000px rgba(0,0,0,0.46);
   padding-top: 10rem;
@@ -207,6 +207,22 @@ header.masthead {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
+}
+
+@media(max-width:400px){
+header.masthead {
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,0.46);
+  padding-top: 10rem;
+  padding-bottom: calc(10rem - 56px);
+  background-image: url("img/palace_small.jpg");
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+}
+
 .fit {
 
     padding-right: 0px;
@@ -314,19 +330,6 @@ header .text-faded{
     color: #fff;
 }
 
-.btn-xl {
-  padding: 1rem 2rem; }
-
-.btn-primary {
-  background-color: #262A2B;                                 /*Changes color of find out more button*/
-  border-color: #262A2B; }
-  .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-    color: #fff;                              /*Changes color of find out more button-text when hover*/
-    background-color: #7c7c7c !important; }        /*Changes color of find out more button when hover*/
-  .btn-primary:active, .btn-primary:focus {
-    box-shadow: 0 0 0 0.2rem rgba(200, 200, 200, 0.5) !important; }
-
-
 .square {
     background-color: red;
 }
@@ -363,7 +366,7 @@ header .text-faded{
 
 .shadowcolright {
     background-color: white;
-    box-shadow: 15px 20px 8px 4px rgba(0,0,0,0.4);
+    box-shadow: 8px 15px 8px 4px rgba(0,0,0,0.4);
     margin-top: 50px;
 }
 
