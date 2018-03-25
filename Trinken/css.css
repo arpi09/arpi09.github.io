@@ -9,7 +9,7 @@ html {
   height: 100%; }
 
 body {
-  font-family: "Lucida Console", Monaco, monospace; }
+  font-family: Verdana, Geneva, sans-serif; }
 
 hr {
   max-width: 50px;
@@ -44,12 +44,12 @@ a {
 
 
 h2.red {
-    font-family: "Lucida Console", Monaco, monospace;
+    font-family: Verdana, Geneva, sans-serif;
     color: red;
 }
 
 h2.white {
-    font-family: "Lucida Console", Monaco, monospace;
+    font-family: Verdana, Geneva, sans-serif;
     color: white;
 }
 
@@ -67,7 +67,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Lucida Console", Monaco, monospace; }
+  font-family: Verdana, Geneva, sans-serif; }
 
 .bg-primary {
   background-color: #262A2B !important; }
@@ -112,7 +112,7 @@ body {
 #mainNav {
   border-bottom: 2px solid rgba(33, 37, 41, 0);
   background-color: #fff;                                   /*Changes color of menubar*/
-  font-family: "Lucida Console", Monaco, monospace;
+  font-family: Verdana, Geneva, sans-serif;
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
   transition: all 0.2s; }
@@ -123,7 +123,7 @@ body {
     font-weight: 700;
     color: red; 
       /*Changes color of Menu main-text*/
-    font-family: "Lucida Console", Monaco, monospace; }
+    font-family: Verdana, Geneva, sans-serif; }
     #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
         color: #ff9393; }                                     /*Changes color of Menu main-text hover*/
   #mainNav .navbar-nav > li.nav-item > a.nav-link,
@@ -195,7 +195,7 @@ body {
 }
     }
 
-@media(min-width:400px){
+
 header.masthead {
     box-shadow: inset 0 0 0 1000px rgba(0,0,0,0.46);
   padding-top: 10rem;
@@ -207,21 +207,7 @@ header.masthead {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
-}
 
-@media(max-width:400px){
-header.masthead {
-    box-shadow: inset 0 0 0 1000px rgba(0,0,0,0.46);
-  padding-top: 10rem;
-  padding-bottom: calc(10rem - 56px);
-  background-image: url("img/palace_small.jpg");
-  background-position: center center;
-  background-attachment: fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover; }
-}
 
 .fit {
 
@@ -265,50 +251,6 @@ header .text-faded{
 .service-box {
   max-width: 400px; }
 
-.portfolio-box {
-  position: relative;
-  display: block;
-  max-width: 650px;
-  margin: 0 auto; }
-  .portfolio-box .portfolio-box-caption {
-    position: absolute;
-    bottom: 0;
-    display: block;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    opacity: 0;
-    color: #fff;                            /*Changes color of text on hover over pictures*/
-    background: rgba(0, 0, 0, 0.5);     /*Changes color of hover pictures*/
-    -webkit-transition: all 0.2s;
-    -moz-transition: all 0.2s;
-    transition: all 0.2s; }
-    .portfolio-box .portfolio-box-caption .portfolio-box-caption-content {
-      position: absolute;
-      top: 50%;
-      width: 100%;
-      transform: translateY(-50%);
-      text-align: center; }
-      .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category,
-      .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
-        padding: 0 15px;
-        font-family: "Lucida Console", Monaco, monospace; }
-      .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
-        font-size: 14px;
-        font-weight: 600;
-        text-transform: uppercase; }
-      .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
-        font-size: 18px; }
-  .portfolio-box:hover .portfolio-box-caption {
-    opacity: 1; }
-  .portfolio-box:focus {
-    outline: none; }
-  @media (min-width: 768px) {
-    .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
-      font-size: 16px; }
-    .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
-      font-size: 22px; } }
-
 .text-primary {
   color: #D5AA4A !important; }
 
@@ -318,20 +260,13 @@ header .text-faded{
     height: cover; 
 }
 
-.maintextdoc{
-    color: rgba(150, 150, 150, 1);
-}
-
-.textdoc{
-    color: rgba(245, 245, 245, 1);
-}
-
-.docheading{
-    color: #fff;
-}
-
 .square {
     background-color: red;
+    margin-top: 0px;
+    box-shadow: 5px 15px 8px 4px rgba(0,0,0,0.4);
+    margin-right: 15px;
+    margin-left: 15px;
+    height: auto;
 }
 
 @media (min-width:992px) {
@@ -388,7 +323,7 @@ header .text-faded{
 }
 
 .botcase {
-    padding-top: 100px;
+    padding-top: 80px;
 }
 
 .happyimg {
@@ -462,6 +397,36 @@ header .text-faded{
     height: 150px;
 }
 
+.coopimg {
+    padding-top: 40px;
+    height: 130px;
+}
+
+.postnordimg {
+    padding-top: 40px;
+    height: 90px;
+}
+
+.percepioimg {
+    padding-top: 35px;
+    height: 120px;
+}
+
+.almiimg {
+    padding-top: 40px;
+    height: 100px;
+}
+
+.jernimg {
+    padding-top: 20px;
+    height: 80px;
+}
+
+.attimg {
+    padding-top: 30px;
+    height: 70px;
+}
+
 #icons {
     color: white;
 }
@@ -470,10 +435,6 @@ header .text-faded{
 @media(min-width:992px){
 .iconrow {
   padding-top: 50px;
-}
-
-.caserow {
-    padding-top: 50px;
 }
     }
 
