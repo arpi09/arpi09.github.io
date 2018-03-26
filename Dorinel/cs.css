@@ -69,7 +69,7 @@ hr.hrned {
 }
 
 .navbar {
-    background-color: rgba(245, 245, 245, 1);
+    background-color: rgba(240, 240, 240, 1);
     
 }
 @media (min-width:1500px) {
@@ -288,7 +288,8 @@ h5 {
 
 .textcontact {
     text-align: left;
-    padding-bottom: 50px; 
+    padding-bottom: 50px;
+    max-width: 200px;
 }
 
 .refinfo {
@@ -428,7 +429,8 @@ h5 {
 
 #map {
     height: 300px;
-    width: 576px;
+    width: 350px;
+    
 }
 
 @media(min-width:220px) and (max-width:700px) {
@@ -441,6 +443,7 @@ h5 {
 .map {
     display:flex;
     justify-content: center;
+    padding-bottom: 50px;
 }
 
 .refdivpicsleftfour {
@@ -890,4 +893,12 @@ p, h1 {
 }
 .pb-3 {
   padding-bottom: 3rem;
+}
+
+.refaone {
+    height: 300px;
+}
+
+.refathree{
+    height: 400px;
 }
