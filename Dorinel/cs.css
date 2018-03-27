@@ -904,3 +904,7 @@ p, h1 {
     height: 400px;
     padding-top: 50px;
 }
+
+.linkedin {
+    text-decoration: none;
+}
